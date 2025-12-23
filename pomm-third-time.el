@@ -320,7 +320,7 @@ KIND is the same as in `pomm-third-time--state'"
                       (format "\nBreak time remaining: %s"
                               (pomm-third-time--format-period
                                (pomm-third-time--break-time)))))))
-   :title "Pomodoro"))
+   :title "Third Time"))
 
 (defun pomm-third-time--switch ()
   "Switch between periods."
